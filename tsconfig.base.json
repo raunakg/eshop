@@ -15,11 +15,11 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@env/*": ["environments/*"],
             "@ng-workspace/orders": ["libs/orders/src/index.ts"],
             "@ng-workspace/products": ["libs/products/src/index.ts"],
             "@ng-workspace/ui": ["libs/ui/src/index.ts"],
-            "@ng-workspace/users": ["libs/users/src/index.ts"]
+            "@ng-workspace/users": ["libs/users/src/index.ts"],
+            "@env/*": ["environments/*"]
         }
     },
     "exclude": ["node_modules", "tmp"]
